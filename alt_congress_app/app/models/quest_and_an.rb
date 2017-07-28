@@ -1,0 +1,2 @@
+class QuestAndAn < ApplicationRecord
+end
