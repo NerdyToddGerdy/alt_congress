@@ -1,0 +1,2 @@
+class QandA < ApplicationRecord
+end
