@@ -4,13 +4,13 @@ class QandAsController < ApplicationController
   # GET /qand_as
   def index
     @qand_as = QandA.all
-
-    render json: @qand_as
+    render json: {status: 200, qand_as: @qand_as}
   end
 
   # GET /qand_as/1
   def show
-    render json: @qand_a
+    @qand_a = QandA.find(params:id)
+    render json: {status: 200, qand_a: @qand_a}
   end
 
   # POST /qand_as
