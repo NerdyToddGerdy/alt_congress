@@ -1,6 +1,6 @@
-class CreateQuestAndAns < ActiveRecord::Migration[5.0]
+class CreateQAndAs < ActiveRecord::Migration[5.0]
   def change
-    create_table :quest_and_ans do |t|
+    create_table :q_and_as do |t|
       t.string :question
       t.string :answer
 
