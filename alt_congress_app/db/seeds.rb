@@ -26,7 +26,7 @@
 
 4.times do
     QandA.create(
-        question: Faker::MostInterestingManInTheWorld.quote,
-        answer: Faker::MostInterestingManInTheWorld.quote
+        question: Faker::StarWars.quote,
+        answer: Faker::StarWars.quote
     )
 end
