@@ -38,7 +38,7 @@
     )
     QandA.create(
         question:  "What's wrong with my ideology?",
-        answer:' Nothing, so long as you remember that your ideology is a set of beliefs that may differ from others'.
+        answer:' Nothing, so long as you remember that your ideology is a set of beliefs that may differ from others.'
     )
     QandA.create(
         question:  'Is ALTcongress conservative or liberal?',
