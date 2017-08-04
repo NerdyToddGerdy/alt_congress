@@ -24,9 +24,31 @@
 #     )
 # end
 
-4.times do
     QandA.create(
-        question: Faker::StarWars.quote,
-        answer: Faker::StarWars.quote
+        question:  'What is ALTcongress?',
+        answer: "An experiment in social civics that will facilitate collaborative solutions to Americas greatest challenges."
     )
-end
+    QandA.create(
+        question:  'How do you expect to compete with a 225-year-old institution?',
+        answer: 'By harnessing the very best of the nearly 220 million Americans eligible to vote.'
+    )
+    QandA.create(
+        question:  'What can I do?',
+        answer: 'We are asking that you voluntarily accept a tax on your time. That you divert a small amount of your TV/internet time to better understand our government and how it works. In return we promise to make it as easy and as engaging as humanly possible.'
+    )
+    QandA.create(
+        question:  "What's wrong with my ideology?",
+        answer:' Nothing, so long as you remember that your ideology is a set of beliefs that may differ from others'.
+    )
+    QandA.create(
+        question:  'Is ALTcongress conservative or liberal?',
+        answer: 'Neither. However, we understand that is almost impossible to believe these days. The most important thing ALTcongress will do as an organization is to objectively facilitate a collaborative process free from any preconceived ideologies.'
+    )
+    QandA.create(
+        question:  'Why should I trust ALTcongress?',
+        answer: 'We promise that we will be transparent and objective in everything we do. Our goal is to build an organization that enables and empowers all voters to take back their government from special interests.'
+    )
+    QandA.create(
+        question: 'Why will the current Congress consider our bills?' ,
+        answer: 'The ALTcongress website will track the support of each and every proposed bill by congressional district. Additionally, the ALTCONGRESS team will help empower the electorate and bring pressure to bear on our elected officials.'
+    )
